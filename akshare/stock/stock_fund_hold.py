@@ -69,6 +69,7 @@ def stock_report_fund_hold(
     big_df.columns = [
         "序号",
         "_",
+        "股票代码",
         "股票简称",
         "_",
         "_",
@@ -87,7 +88,6 @@ def stock_report_fund_hold(
         "_",
         "_",
         "_",
-        "股票代码",
         "_",
         "_",
     ]
